@@ -1,0 +1,2016 @@
+{
+  "profiles": [],
+  "calculations": [],
+  "materials": [
+    {
+      "id": "ceb7e399-fba0-4e7f-bfdb-1a2a5261314a",
+      "name": "Steel 1018",
+      "category": "P - Steel",
+      "subCategory": "Non-alloyed steel 0.1-0.25% Carbon",
+      "properties": {
+        "Density": {
+          "value": 7.87,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 440,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 205,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 51.9,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 71,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "10830ade-1d6e-42d8-998f-3b3b9c9d66c5",
+      "name": "Steel 1045",
+      "category": "P - Steel",
+      "subCategory": "Non-alloyed steel 0.26-0.50% Carbon",
+      "properties": {
+        "Density": {
+          "value": 7.87,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.8,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 570,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 200,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 51,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 84,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "d849e096-21ea-4dd5-8e47-100c3e76e19e",
+      "name": "Steel 4140",
+      "category": "P - Steel",
+      "subCategory": "Low Alloyed Steel",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 2.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 655,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 190,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 42.6,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 95,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "84ea03e2-59fd-454c-bba9-cae28388a0ad",
+      "name": "Tool Steel D2",
+      "category": "P - Steel",
+      "subCategory": "Tool Steel and High Alloy Steel",
+      "properties": {
+        "Density": {
+          "value": 7.7,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 8,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 2150,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 210,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 20,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell C": {
+          "value": 62,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "1ed3d984-e1c4-4912-9f54-e4191ca14d3b",
+      "name": "Stainless Steel 304",
+      "category": "M - Stainless Steel",
+      "subCategory": "Austenitic",
+      "properties": {
+        "Density": {
+          "value": 8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 4.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 515,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 193,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 16.2,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 88,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "be8b843f-d0da-41df-813f-78c56cfec37c",
+      "name": "Stainless Steel 316",
+      "category": "M - Stainless Steel",
+      "subCategory": "Austenitic",
+      "properties": {
+        "Density": {
+          "value": 8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 5.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 515,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 193,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 16.3,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 95,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "311ae4bb-d3fb-42e6-8703-db2d77f6dfa0",
+      "name": "Stainless Steel 430",
+      "category": "M - Stainless Steel",
+      "subCategory": "Ferritic",
+      "properties": {
+        "Density": {
+          "value": 7.8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 3.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 450,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 200,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 26.1,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 85,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "a6e73ec6-4549-4b55-8fb4-e88e322337e1",
+      "name": "Stainless Steel 17-4 PH",
+      "category": "M - Stainless Steel",
+      "subCategory": "Precipitation Hardening",
+      "properties": {
+        "Density": {
+          "value": 7.8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 12,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 1310,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 200,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 17.9,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell C": {
+          "value": 44,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "7d6d8f40-a306-4a1d-979c-4b1245a61439",
+      "name": "Grey Cast Iron (Class 30)",
+      "category": "K - Cast Iron",
+      "subCategory": "Grey Cast Iron",
+      "properties": {
+        "Density": {
+          "value": 7.15,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.2,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 207,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 96,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 53.3,
+          "unit": "W/m-K"
+        },
+        "Hardness, Brinell": {
+          "value": 187,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "68659552-c603-4bf7-976a-0cf3dc2e6257",
+      "name": "Ductile Iron 65-45-12",
+      "category": "K - Cast Iron",
+      "subCategory": "Ductile Cast Iron",
+      "properties": {
+        "Density": {
+          "value": 7.1,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.8,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 448,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 169,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 36,
+          "unit": "W/m-K"
+        },
+        "Hardness, Brinell": {
+          "value": 170,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "6912b946-6e0c-4c08-addd-cb0fb9ea1fbc",
+      "name": "Aluminum 6061-T6",
+      "category": "N - Non-ferrous",
+      "subCategory": "Aluminum",
+      "properties": {
+        "Density": {
+          "value": 2.7,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 4,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 310,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 68.9,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 167,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 60,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "afaa96ca-c983-4db4-9af5-43476daa543c",
+      "name": "Aluminum 7075-T6",
+      "category": "N - Non-ferrous",
+      "subCategory": "Aluminum",
+      "properties": {
+        "Density": {
+          "value": 2.81,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 7,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 572,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 71.7,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 130,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 87,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "c87e37f6-8eb9-4552-81cb-66658a7cd075",
+      "name": "Brass 360",
+      "category": "N - Non-ferrous",
+      "subCategory": "Copper Alloy",
+      "properties": {
+        "Density": {
+          "value": 8.5,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 9,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 360,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 97,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 115,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 78,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "1970d17b-891c-4ab9-b787-cf8658db3c7e",
+      "name": "Titanium Ti-6Al-4V (Grade 5)",
+      "category": "S - Superalloys & Titanium",
+      "subCategory": "Titanium",
+      "properties": {
+        "Density": {
+          "value": 4.43,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 45,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 950,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 113.8,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 6.7,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell C": {
+          "value": 36,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "384804b5-9d9f-46e1-8cca-7130d30ef7b2",
+      "name": "Inconel 718",
+      "category": "S - Superalloys & Titanium",
+      "subCategory": "High Temperature Super Alloy (HRSA)",
+      "properties": {
+        "Density": {
+          "value": 8.19,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 50,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 1375,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 200,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 11.4,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell C": {
+          "value": 42,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "19d96eaa-981f-4781-91bf-e02ce1c637fa",
+      "name": "Hardened Steel 4140 (HRC 45)",
+      "category": "H - Hardened Steel",
+      "subCategory": "Hardened Steel",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 3.5,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 1500,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 205,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 42,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell C": {
+          "value": 45,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "b8280cf5-b8ae-42cd-be02-38142f9a7d2b",
+      "name": "Delrin (Acetal)",
+      "category": "O - Polymers",
+      "subCategory": "Thermoplastic",
+      "properties": {
+        "Density": {
+          "value": 1.41,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 10,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 65,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 2.8,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 0.23,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 120,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "32b37526-d368-40b6-bf64-7a5a701173ea",
+      "name": "PEEK",
+      "category": "O - Polymers",
+      "subCategory": "High-Performance Thermoplastic",
+      "properties": {
+        "Density": {
+          "value": 1.32,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 100,
+          "unit": "USD"
+        },
+        "Tensile Strength, Ultimate": {
+          "value": 95,
+          "unit": "MPa"
+        },
+        "Modulus of Elasticity": {
+          "value": 3.6,
+          "unit": "GPa"
+        },
+        "Thermal Conductivity": {
+          "value": 0.25,
+          "unit": "W/m-K"
+        },
+        "Hardness, Rockwell R": {
+          "value": 126,
+          "unit": ""
+        }
+      },
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Grey Iron (Class 30)",
+      "category": "K - Cast Iron",
+      "subCategory": "Cast Iron",
+      "properties": {
+        "Density": {
+          "value": 7.2,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 2.3,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "397bf15b-8126-418b-a98e-139a392fae9d",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Ductile Iron (65-45-12)",
+      "category": "K - Cast Iron",
+      "subCategory": "Cast Iron",
+      "properties": {
+        "Density": {
+          "value": 7.1,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 2.65,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "720b1e36-b47f-45c3-982f-dfaaea38cf68",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Cast Carbon Steel",
+      "category": "P - Steel",
+      "subCategory": "Cast Steel",
+      "properties": {
+        "Density": {
+          "value": 7.82,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 3.4,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "cc4d16e6-b007-49e1-b681-ee03db6cac06",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Cast Stainless Steel (316)",
+      "category": "M - Stainless Steel",
+      "subCategory": "Cast Stainless Steel",
+      "properties": {
+        "Density": {
+          "value": 8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 6.8,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "94e0b9cb-a185-4d74-8a1a-a0a9f7474b70",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Cast Aluminum (A356)",
+      "category": "N - Non-ferrous",
+      "subCategory": "Cast Aluminum",
+      "properties": {
+        "Density": {
+          "value": 2.68,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 4.5,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "effe0c6a-19f4-4bf9-bbb9-fb7494842437",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Cast Bronze (C954)",
+      "category": "N - Non-ferrous",
+      "subCategory": "Cast Bronze",
+      "properties": {
+        "Density": {
+          "value": 7.45,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 8.2,
+          "unit": "USD"
+        }
+      },
+      "module": "casting",
+      "id": "9a58b5e7-038e-4bf3-a060-171b0fb6214f",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "AISI 1045 Carbon Steel",
+      "category": "P - Steel",
+      "subCategory": "Forging Carbon Steel",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.95,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "dd03ae27-ca2b-4988-afa8-08ab3fa63038",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "AISI 4140 Alloy Steel",
+      "category": "P - Steel",
+      "subCategory": "Forging Alloy Steel",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 2.8,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "be4c7970-1804-42f8-97a1-c7e78a42c4ec",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "AISI 4340 Nickel-Moly Steel",
+      "category": "P - Steel",
+      "subCategory": "Forging Alloy Steel",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 3.5,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "481064b8-8495-4342-ae80-ad823d7d73e5",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "AISI 316L Stainless Steel",
+      "category": "M - Stainless Steel",
+      "subCategory": "Forging Stainless Steel",
+      "properties": {
+        "Density": {
+          "value": 8,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 6.2,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "9e427bd9-98d0-42fa-bb05-a52e2f3c73f2",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Aluminum 6061-T6",
+      "category": "N - Non-ferrous",
+      "subCategory": "Forging Aluminum",
+      "properties": {
+        "Density": {
+          "value": 2.7,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 4.8,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "1ba0b728-f4ca-4b4a-8f40-347fa472a085",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Titanium Ti-6Al-4V",
+      "category": "S - Superalloys & Titanium",
+      "subCategory": "Forging Titanium",
+      "properties": {
+        "Density": {
+          "value": 4.43,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 26,
+          "unit": "USD"
+        }
+      },
+      "module": "forging",
+      "id": "c9991a61-0e06-44f5-a515-3451c327a7a4",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Cold Rolled Steel (SPCC)",
+      "category": "P - Steel",
+      "subCategory": "Sheet Steel SPCC",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.85,
+          "unit": "USD"
+        }
+      },
+      "module": "stamping",
+      "id": "76d4da7e-2afd-4786-918f-8ae0e49a16b0",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Hot Rolled Steel (SPHC)",
+      "category": "P - Steel",
+      "subCategory": "Sheet Steel SPHC",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.65,
+          "unit": "USD"
+        }
+      },
+      "module": "stamping",
+      "id": "f5e6a83e-c6e6-49ec-8f19-af941ed07799",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Stainless Steel 304 (SS304)",
+      "category": "M - Stainless Steel",
+      "subCategory": "Sheet Stainless SS304",
+      "properties": {
+        "Density": {
+          "value": 7.93,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 4.25,
+          "unit": "USD"
+        }
+      },
+      "module": "stamping",
+      "id": "140156a6-8f5a-4411-99f1-a3d9befeefba",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Aluminum Alloy 5052-H32",
+      "category": "N - Non-ferrous",
+      "subCategory": "Sheet Aluminum Al5052",
+      "properties": {
+        "Density": {
+          "value": 2.68,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 3.8,
+          "unit": "USD"
+        }
+      },
+      "module": "stamping",
+      "id": "58b3c837-66ca-4240-955a-0976ba777318",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Galvanized Steel (SGCC)",
+      "category": "P - Steel",
+      "subCategory": "Sheet Steel SGCC",
+      "properties": {
+        "Density": {
+          "value": 7.85,
+          "unit": "g/cm³"
+        },
+        "Cost Per Kg": {
+          "value": 1.95,
+          "unit": "USD"
+        }
+      },
+      "module": "stamping",
+      "id": "d21ac307-365f-4954-bf49-dca40588abc3",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    }
+  ],
+  "machines": [
+    {
+      "id": "8399c706-284e-4888-84ae-cd4977acada2",
+      "name": "HAAS VF-2",
+      "brand": "HAAS",
+      "model": "VF-2",
+      "hourlyRate": 75,
+      "machineType": "CNC Mill",
+      "xAxis": 762,
+      "yAxis": 406,
+      "zAxis": 508,
+      "powerKw": 22.4,
+      "additionalAxis": "4th",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "be974c7f-a999-4d91-9624-8c1b30a03f63",
+      "name": "Doosan Puma 2600Y",
+      "brand": "Doosan",
+      "model": "Puma 2600Y",
+      "hourlyRate": 90,
+      "machineType": "CNC Lathe",
+      "xAxis": 260,
+      "yAxis": 105,
+      "zAxis": 830,
+      "powerKw": 22,
+      "additionalAxis": "Y-Axis",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "9a42353e-60b0-45cf-a150-23c0a4bca4fb",
+      "name": "Amada HFA-250W",
+      "brand": "Amada",
+      "model": "HFA-250W",
+      "hourlyRate": 40,
+      "machineType": "Saw",
+      "xAxis": 250,
+      "yAxis": 250,
+      "zAxis": 0,
+      "powerKw": 4,
+      "additionalAxis": "None",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "c61af0f6-852c-44d0-aa8b-7b79b06e8112",
+      "name": "Okuma M560-V",
+      "brand": "Okuma",
+      "model": "M560-V",
+      "hourlyRate": 85,
+      "machineType": "CNC Mill",
+      "xAxis": 1050,
+      "yAxis": 560,
+      "zAxis": 460,
+      "powerKw": 15,
+      "additionalAxis": "5th",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "03f86c39-f02c-4f50-8fe4-e4efa1a8d59f",
+      "name": "Mazak Integrex i-200",
+      "brand": "Mazak",
+      "model": "Integrex i-200",
+      "hourlyRate": 150,
+      "machineType": "CNC Lathe",
+      "xAxis": 450,
+      "yAxis": 250,
+      "zAxis": 1585,
+      "powerKw": 22,
+      "additionalAxis": "Y-Axis",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "38f6fac2-fdbb-4b3c-812a-1c8dda12740e",
+      "name": "DMG Mori DMU 50",
+      "brand": "DMG Mori",
+      "model": "DMU 50",
+      "hourlyRate": 120,
+      "machineType": "CNC Mill",
+      "xAxis": 650,
+      "yAxis": 520,
+      "zAxis": 475,
+      "powerKw": 13,
+      "additionalAxis": "5th",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "d9b74b25-7216-4949-9604-6478e6d88ecd",
+      "name": "Fanuc Robodrill D21LiB5",
+      "brand": "Fanuc",
+      "model": "Robodrill D21LiB5",
+      "hourlyRate": 70,
+      "machineType": "CNC Mill",
+      "xAxis": 700,
+      "yAxis": 400,
+      "zAxis": 330,
+      "powerKw": 10,
+      "additionalAxis": "None",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "bb6b155b-cf6c-44cc-bcec-daa15c6559fe",
+      "name": "Okamoto ACC-8.20DX",
+      "brand": "Okamoto",
+      "model": "ACC-8.20DX",
+      "hourlyRate": 65,
+      "machineType": "Grinder",
+      "xAxis": 500,
+      "yAxis": 200,
+      "zAxis": 300,
+      "powerKw": 5,
+      "additionalAxis": "None",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "a1762f40-1b23-4b92-9ed7-19b971724d78",
+      "name": "Gleason Genesis 200GX",
+      "brand": "Gleason",
+      "model": "200GX",
+      "hourlyRate": 130,
+      "machineType": "Gear Cutter",
+      "xAxis": 210,
+      "yAxis": 240,
+      "zAxis": 300,
+      "powerKw": 20,
+      "additionalAxis": "None",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Induction Melting Furnace",
+      "brand": "Inductotherm",
+      "model": "Meltminder 300T",
+      "hourlyRate": 85,
+      "machineType": "Melting Tool",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 350,
+      "additionalAxis": "none",
+      "module": "casting",
+      "id": "b8929588-7fc5-416c-a7c0-20b4f6d09509",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "High Pressure Die Casting Machine",
+      "brand": "Bühler",
+      "model": "Carat 400",
+      "hourlyRate": 150,
+      "machineType": "Die Casting Press",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 110,
+      "additionalAxis": "none",
+      "module": "casting",
+      "id": "bfabea75-993c-4391-967f-a598f4009c61",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Automatic Sand Molding Line",
+      "brand": "DISA",
+      "model": "DISAMATIC D3",
+      "hourlyRate": 95,
+      "machineType": "Molding Line",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 75,
+      "additionalAxis": "none",
+      "module": "casting",
+      "id": "5c75f8ba-934b-476b-a728-2ca6679c71fc",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "1600T Hot Forging Press",
+      "brand": "Farina",
+      "model": "HF-1600",
+      "hourlyRate": 160,
+      "machineType": "Forging Press",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 220,
+      "additionalAxis": "none",
+      "module": "forging",
+      "id": "7e7f5255-99d5-4285-8e71-2793922f6e63",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Gas Fired Rotary Hearth Furnace",
+      "brand": "Inductotherm",
+      "model": "RHF-400",
+      "hourlyRate": 80,
+      "machineType": "Heating Furnace",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 400,
+      "additionalAxis": "none",
+      "module": "forging",
+      "id": "e3134298-5a81-4597-a304-198b5ea38a7a",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Shearing Machine",
+      "brand": "Fimi",
+      "model": "SM-500",
+      "hourlyRate": 50,
+      "machineType": "Shearing",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 45,
+      "additionalAxis": "none",
+      "module": "forging",
+      "id": "c3ac99cd-62c1-478b-8e64-162cc466d585",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "200T Progressive Press",
+      "brand": "AIDA",
+      "model": "PMX-200",
+      "hourlyRate": 95,
+      "machineType": "Stamping Press",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 45,
+      "additionalAxis": "none",
+      "module": "stamping",
+      "id": "7d916823-36b7-4eb2-a42a-a2738af82e6f",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "400T Tandem Press",
+      "brand": "Komatsu",
+      "model": "OBS-400",
+      "hourlyRate": 140,
+      "machineType": "Stamping Press",
+      "xAxis": 0,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 90,
+      "additionalAxis": "none",
+      "module": "stamping",
+      "id": "0e4d2118-b46f-4da0-be52-e55abb8d4955",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Trumpf 4kW Laser Cutter",
+      "brand": "Trumpf",
+      "model": "TruLaser 3030",
+      "hourlyRate": 85,
+      "machineType": "Laser Cutter",
+      "xAxis": 3000,
+      "yAxis": 1500,
+      "zAxis": 115,
+      "powerKw": 35,
+      "additionalAxis": "none",
+      "module": "stamping",
+      "id": "9b6d2d6b-3702-41e8-83d8-780bcd051960",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Amada 130T Press Brake",
+      "brand": "Amada",
+      "model": "HG-1303",
+      "hourlyRate": 55,
+      "machineType": "Press Brake",
+      "xAxis": 3000,
+      "yAxis": 0,
+      "zAxis": 0,
+      "powerKw": 15,
+      "additionalAxis": "none",
+      "module": "stamping",
+      "id": "4629edb1-37ef-411b-afe6-6a036989bd26",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    }
+  ],
+  "processes": [
+    {
+      "id": "54d4c2ac-d180-4255-8dc6-315141d12545",
+      "name": "Face Milling",
+      "group": "Milling",
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "imageUrl": "https://i.ibb.co/L5B703Q/face-milling.png",
+      "parameters": [
+        {
+          "name": "machiningLength",
+          "label": "Machining Length (L)",
+          "unit": "mm"
+        },
+        {
+          "name": "machiningWidth",
+          "label": "Machining Width (W)",
+          "unit": "mm"
+        },
+        {
+          "name": "totalDepth",
+          "label": "Total Depth (TD)",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth of Cut per Pass (ap)",
+          "unit": "mm"
+        },
+        {
+          "name": "stepover",
+          "label": "Stepover",
+          "unit": "fraction"
+        }
+      ],
+      "formula": "(function() {\n            if (!toolDiameter || toolDiameter <= 0 || !feedRate || feedRate <= 0 || totalDepth <= 0 || depthPerPass <= 0 || machiningLength <= 0 || machiningWidth <= 0 || stepover <= 0) return 0;\n            const depthPassCount = Math.ceil(totalDepth / depthPerPass);\n            const stepoverWidth = stepover * toolDiameter;\n            const widthPassCount = machiningWidth <= toolDiameter ? 1 : Math.ceil((machiningWidth - toolDiameter) / stepoverWidth) + 1;\n            return (machiningLength / feedRate) * depthPassCount * widthPassCount;\n        })()",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "d64da01c-2bd3-4f77-9c28-10c7652f0724",
+      "name": "Peripheral Milling",
+      "group": "Milling",
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "imageUrl": "https://i.ibb.co/C1dC2F9/peripheral-milling.png",
+      "parameters": [
+        {
+          "name": "edgeLength",
+          "label": "Edge Length",
+          "unit": "mm"
+        },
+        {
+          "name": "totalDepth",
+          "label": "Total Depth (t)",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth per Pass (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "((edgeLength + toolDiameter) * Math.ceil(totalDepth / (depthPerPass || 1))) / feedRate",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "c8bb671b-157d-4fb7-9586-d361e8d74b18",
+      "name": "Slot Milling",
+      "group": "Milling",
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "imageUrl": "https://i.ibb.co/yY1h29J/slot-milling.png",
+      "parameters": [
+        {
+          "name": "slotLength",
+          "label": "Slot Length",
+          "unit": "mm"
+        },
+        {
+          "name": "slotDepth",
+          "label": "Slot Depth (t)",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth per Pass (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "((slotLength + toolDiameter) * Math.ceil(slotDepth / (depthPerPass || 1))) / feedRate",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "b3aa4019-edcb-4007-97f6-c114e2d44c2b",
+      "name": "Pocketing (MRR)",
+      "group": "Milling",
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "imageUrl": "https://i.ibb.co/TqY2s1y/pocketing.png",
+      "parameters": [
+        {
+          "name": "pocketLength",
+          "label": "Pocket Length",
+          "unit": "mm"
+        },
+        {
+          "name": "pocketWidth",
+          "label": "Pocket Width",
+          "unit": "mm"
+        },
+        {
+          "name": "pocketDepth",
+          "label": "Pocket Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "radialEngagement",
+          "label": "Radial Engagement (ae)",
+          "unit": "mm"
+        },
+        {
+          "name": "axialEngagement",
+          "label": "Axial Engagement (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(axialEngagement > 0 && radialEngagement > 0 && feedRate > 0 ? (pocketLength * pocketWidth * pocketDepth) / (axialEngagement * radialEngagement * feedRate) : 0)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "5fbf0aae-5083-43db-8d3a-6bcfce64866b",
+      "name": "Profiling / Contouring",
+      "group": "Milling",
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "imageUrl": "https://i.ibb.co/mHswkP5/contouring.png",
+      "parameters": [
+        {
+          "name": "perimeter",
+          "label": "Perimeter (P)",
+          "unit": "mm"
+        },
+        {
+          "name": "totalDepth",
+          "label": "Total Depth (t)",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth per Pass (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "((perimeter + toolDiameter) * Math.ceil(totalDepth / (depthPerPass || 1))) / feedRate",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "5a51dd54-22c0-4aa0-92f6-1526f5e25574",
+      "name": "Drilling",
+      "group": "Drilling",
+      "compatibleMachineTypes": [
+        "CNC Mill",
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "holeDepth",
+          "label": "Hole Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "numberOfHoles",
+          "label": "Number of Holes",
+          "unit": "qty"
+        }
+      ],
+      "formula": "((holeDepth + (0.3 * toolDiameter)) / (feedRate || 1)) * numberOfHoles",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "8cddef07-82b3-4e79-8642-c54d952d4cac",
+      "name": "Tapping",
+      "group": "Drilling",
+      "compatibleMachineTypes": [
+        "CNC Mill",
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "holeDepth",
+          "label": "Thread Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "numberOfHoles",
+          "label": "Number of Holes",
+          "unit": "qty"
+        }
+      ],
+      "formula": "((holeDepth * 2) / (feedRate || 1)) * numberOfHoles",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "452cd46d-b31c-4079-9532-7e4bed9dd4c5",
+      "name": "Reaming",
+      "group": "Drilling",
+      "compatibleMachineTypes": [
+        "CNC Mill",
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "holeDepth",
+          "label": "Hole Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "numberOfHoles",
+          "label": "Number of Holes",
+          "unit": "qty"
+        }
+      ],
+      "formula": "(holeDepth / (feedRate || 1)) * numberOfHoles",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "0852ae32-7063-4ef4-9bf4-6fe2be78c475",
+      "name": "External Turning (OD)",
+      "group": "Turning",
+      "compatibleMachineTypes": [
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "length",
+          "label": "Turning Length",
+          "unit": "mm"
+        },
+        {
+          "name": "diameterStart",
+          "label": "Start Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "diameterEnd",
+          "label": "End Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth of Cut (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(length * Math.ceil(Math.abs(diameterStart - diameterEnd) / (2 * (depthPerPass || 1)))) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "3ba2ffcf-e94b-4f61-85f9-62af8234e1dd",
+      "name": "Internal Turning (Boring)",
+      "group": "Turning",
+      "compatibleMachineTypes": [
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "length",
+          "label": "Boring Length",
+          "unit": "mm"
+        },
+        {
+          "name": "diameterStart",
+          "label": "Start Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "diameterEnd",
+          "label": "End Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth of Cut (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(length * Math.ceil(Math.abs(diameterEnd - diameterStart) / (2 * (depthPerPass || 1)))) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "eddabd4b-610e-4b9d-9873-f5f426b4c395",
+      "name": "Facing (Lathe)",
+      "group": "Turning",
+      "compatibleMachineTypes": [
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "facingDiameter",
+          "label": "Facing Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "totalFacingDepth",
+          "label": "Total Facing Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth of Cut (ap)",
+          "unit": "mm"
+        }
+      ],
+      "formula": "((facingDiameter / 2) * Math.ceil(totalFacingDepth / (depthPerPass || 1))) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "94381114-3cfb-4aa8-b1a1-a8a63bb1ccbb",
+      "name": "Parting / Grooving",
+      "group": "Turning",
+      "compatibleMachineTypes": [
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "partingDiameter",
+          "label": "Parting Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "grooveDepth",
+          "label": "Groove Depth",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(grooveDepth / (feedRate || 1))",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "917a4b1c-cfdb-4338-8a77-6e9cb4c72395",
+      "name": "Threading (Lathe)",
+      "group": "Turning",
+      "compatibleMachineTypes": [
+        "CNC Lathe"
+      ],
+      "parameters": [
+        {
+          "name": "threadLength",
+          "label": "Thread Length",
+          "unit": "mm"
+        },
+        {
+          "name": "numberOfPasses",
+          "label": "Number of Passes",
+          "unit": "qty"
+        }
+      ],
+      "formula": "(threadLength * numberOfPasses) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "d7e9ac04-84a8-442a-96e4-88997e96d0d1",
+      "name": "Surface Grinding",
+      "group": "Grinding",
+      "compatibleMachineTypes": [
+        "Grinder"
+      ],
+      "parameters": [
+        {
+          "name": "length",
+          "label": "Length",
+          "unit": "mm"
+        },
+        {
+          "name": "width",
+          "label": "Width",
+          "unit": "mm"
+        },
+        {
+          "name": "totalDepth",
+          "label": "Total Depth",
+          "unit": "mm"
+        },
+        {
+          "name": "depthPerPass",
+          "label": "Depth per Pass",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(length * width * Math.ceil(totalDepth / (depthPerPass || 0.01))) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "f7a0d053-6c2e-4951-85db-a3b3d5a44e69",
+      "name": "Band Saw Cut-Off",
+      "group": "Sawing",
+      "compatibleMachineTypes": [
+        "Saw"
+      ],
+      "imageUrl": "https://i.ibb.co/YyN1M0X/band-saw.png",
+      "parameters": [
+        {
+          "name": "cutWidth",
+          "label": "Cut Width/Diameter",
+          "unit": "mm"
+        },
+        {
+          "name": "bladeTPI",
+          "label": "Blade TPI",
+          "unit": "TPI"
+        },
+        {
+          "name": "allowance",
+          "label": "Approach/Exit Allowance",
+          "unit": "mm"
+        }
+      ],
+      "formula": "(cutWidth + allowance) / (feedRate || 1)",
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Sand Casting Process",
+      "group": "Casting Molding",
+      "compatibleMachineTypes": [
+        "Molding Line"
+      ],
+      "parameters": [
+        {
+          "name": "moldingCycleTimeMin",
+          "label": "Molding Cycle Time",
+          "unit": "Min"
+        },
+        {
+          "name": "yieldRate",
+          "label": "Casting Yield Rate",
+          "unit": "%"
+        }
+      ],
+      "module": "casting",
+      "id": "d902797f-8b35-44b9-a512-9d840d0336e4",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Die Casting Process",
+      "group": "Press Casting",
+      "compatibleMachineTypes": [
+        "Die Casting Press"
+      ],
+      "parameters": [
+        {
+          "name": "moldingCycleTimeMin",
+          "label": "Injection Cycle Time",
+          "unit": "Min"
+        },
+        {
+          "name": "yieldRate",
+          "label": "Casting Yield Rate",
+          "unit": "%"
+        }
+      ],
+      "module": "casting",
+      "id": "0456dde8-3a58-428f-8452-1cfb534fab86",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Closed Die Forging Process",
+      "group": "Forging Operations",
+      "compatibleMachineTypes": [
+        "Forging Press"
+      ],
+      "parameters": [
+        {
+          "name": "forgingCycleTimeSec",
+          "label": "Forge Stroke Cycle",
+          "unit": "Sec"
+        },
+        {
+          "name": "yieldRate",
+          "label": "Material Yield Rate",
+          "unit": "%"
+        }
+      ],
+      "module": "forging",
+      "id": "c322cede-2be8-46ad-a81b-97cd3dad1864",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Induction Heating Process",
+      "group": "Forging Preparation",
+      "compatibleMachineTypes": [
+        "Heating Furnace"
+      ],
+      "parameters": [
+        {
+          "name": "heatingEnergyCostPerKg",
+          "label": "Heating Energy Cost",
+          "unit": "USD/kg"
+        }
+      ],
+      "module": "forging",
+      "id": "2afa7e97-e8e3-4813-86ec-774eb2cab5c6",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Progressive Die Process",
+      "group": "Forming Operations",
+      "compatibleMachineTypes": [
+        "Stamping Press"
+      ],
+      "parameters": [
+        {
+          "name": "strokesPerMinute",
+          "label": "Stroke Rate (SPM)",
+          "unit": "Strokes/Min"
+        }
+      ],
+      "module": "stamping",
+      "id": "273abb81-cc27-459a-b1c7-88838efb1471",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Laser Cutting Process",
+      "group": "Cutting Operations",
+      "compatibleMachineTypes": [
+        "Laser Cutter"
+      ],
+      "parameters": [
+        {
+          "name": "feedRateMmPerMin",
+          "label": "Feed Rate",
+          "unit": "mm/min"
+        }
+      ],
+      "module": "stamping",
+      "id": "ecffc461-c724-4762-b51f-a5eae1ec9a88",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Press Brake Bending Process",
+      "group": "Forming Operations",
+      "compatibleMachineTypes": [
+        "Press Brake"
+      ],
+      "parameters": [
+        {
+          "name": "secondsPerBend",
+          "label": "Time per bend",
+          "unit": "Sec"
+        }
+      ],
+      "module": "stamping",
+      "id": "ec2f5e89-cd4e-42bc-b333-9dec65787a5a",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    }
+  ],
+  "tools": [
+    {
+      "id": "933d03cd-b51e-4eb6-b2bf-a950d894b697",
+      "name": "Sandvik CoroMill Plura 10mm End Mill",
+      "brand": "Sandvik",
+      "model": "2P342-1000-PA",
+      "toolType": "End Mill",
+      "material": "Carbide",
+      "diameter": 10,
+      "cornerRadius": 0.5,
+      "numberOfTeeth": 4,
+      "arborOrInsert": "Shank",
+      "cuttingSpeedVc": 150,
+      "feedPerTooth": 0.06,
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "price": 95,
+      "estimatedLife": 50,
+      "speedRpm": null,
+      "feedRate": null,
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "303c0012-6ca7-4125-966c-7b3a666b1ed6",
+      "name": "Iscar HELIQUMILL 50mm Face Mill",
+      "brand": "Iscar",
+      "model": "HM90 F90A D50-5-22",
+      "toolType": "Face Mill",
+      "material": "Carbide",
+      "diameter": 50,
+      "cornerRadius": null,
+      "numberOfTeeth": 5,
+      "arborOrInsert": "Arbor",
+      "cuttingSpeedVc": 200,
+      "feedPerTooth": 0.12,
+      "compatibleMachineTypes": [
+        "CNC Mill"
+      ],
+      "price": 280,
+      "estimatedLife": 100,
+      "speedRpm": null,
+      "feedRate": null,
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "id": "ebf2f42d-6879-482f-8af9-bc7e59b787a9",
+      "name": "Amada SGLB 10 TPI Bandsaw Blade",
+      "brand": "Amada",
+      "model": "SGLB",
+      "toolType": "Band Saw Blade",
+      "material": "HSS",
+      "diameter": 27,
+      "cornerRadius": null,
+      "numberOfTeeth": 10,
+      "arborOrInsert": "Shank",
+      "cuttingSpeedVc": 60,
+      "feedPerTooth": 0.05,
+      "compatibleMachineTypes": [
+        "Saw"
+      ],
+      "price": 120,
+      "estimatedLife": 80,
+      "speedRpm": null,
+      "feedRate": null,
+      "module": "machining",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Molding Box Pattern",
+      "brand": "Sinto",
+      "model": "SP-10",
+      "toolType": "Patterns",
+      "material": "Aluminum",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Shank",
+      "compatibleMachineTypes": [
+        "Molding Line"
+      ],
+      "price": 2500,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 50000,
+      "module": "casting",
+      "id": "2f143c91-4a64-45cc-8930-29a02fc0bfef",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Die Casting mold set",
+      "brand": "Bühler",
+      "model": "DCM-V",
+      "toolType": "Dies",
+      "material": "H13 Tool Steel",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Insert",
+      "compatibleMachineTypes": [
+        "Die Casting Press"
+      ],
+      "price": 35000,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 100000,
+      "module": "casting",
+      "id": "8bb79d86-c954-45a6-9527-ff8890811908",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Closed Die Tool Block Set",
+      "brand": "Farina",
+      "model": "DB-1600SR",
+      "toolType": "Dies",
+      "material": "H13 Forged Tool Steel",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Insert",
+      "compatibleMachineTypes": [
+        "Forging Press"
+      ],
+      "price": 18500,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 15000,
+      "module": "forging",
+      "id": "adc3069e-e7c7-4381-8628-db70fb042456",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Shearing Blades Set",
+      "brand": "Fimi",
+      "model": "SB-500",
+      "toolType": "Cutting Blades",
+      "material": "D2 Tool Steel",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Arbor",
+      "compatibleMachineTypes": [
+        "Shearing"
+      ],
+      "price": 2000,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 50000,
+      "module": "forging",
+      "id": "0596137c-3e45-45fb-9905-8775121a5266",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Multi-Stage Progressive Die Set",
+      "brand": "AIDA",
+      "model": "PD-200X",
+      "toolType": "Dies",
+      "material": "D2 Tool Steel",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Insert",
+      "compatibleMachineTypes": [
+        "Stamping Press"
+      ],
+      "price": 28000,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 120000,
+      "module": "stamping",
+      "id": "1a0e2db0-b4aa-485c-a190-994c537e41f2",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    },
+    {
+      "name": "Bending V-Die Tooling Set",
+      "brand": "Amada",
+      "model": "VD-130",
+      "toolType": "Press Brake Tooling",
+      "material": "H13 Steel",
+      "diameter": 0,
+      "cornerRadius": null,
+      "numberOfTeeth": null,
+      "arborOrInsert": "Arbor",
+      "compatibleMachineTypes": [
+        "Press Brake"
+      ],
+      "price": 3800,
+      "cuttingSpeedVc": null,
+      "feedPerTooth": null,
+      "speedRpm": null,
+      "feedRate": null,
+      "estimatedLife": 80000,
+      "module": "stamping",
+      "id": "e3e8a1de-8377-4e54-9ddc-27073a0b0b37",
+      "user_id": "8454f023-b87e-44db-99f4-ca08c919835d"
+    }
+  ],
+  "feedback": [],
+  "region_costs": [],
+  "region_currency_map": [
+    {
+      "id": "rcm_in",
+      "region": "India",
+      "currency": "INR"
+    },
+    {
+      "id": "rcm_us",
+      "region": "USA",
+      "currency": "USD"
+    },
+    {
+      "id": "rcm_de",
+      "region": "Germany",
+      "currency": "EUR"
+    }
+  ],
+  "subscription_plans": [],
+  "calculation_templates": []
+}
