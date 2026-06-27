@@ -2,6 +2,8 @@
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
+const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'ch2026';
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   // Load env file based on `mode` in the current working directory.
@@ -13,8 +15,10 @@ export default defineConfig(({ mode }) => {
   const apiKey = env.GEMINI_API_KEY || env.API_KEY || env.VITE_GEMINI_API_KEY || env.VITE_API_KEY;
 
   return {
+    base: process.env.GITHUB_ACTIONS ? `/${repoName}/` : '/',
     plugins: [react()],
     server: {
+      hmr: false,
       proxy: {
         '/api': {
           target: 'http://localhost:3000',
