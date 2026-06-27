@@ -1,11 +1,15 @@
 name = "costinghub-app-2026"
 compatibility_date = "2025-01-01"
+main = "server.ts"
 pages_build_output_dir = "dist"
 
 [vars]
 # Add your environment variables here in the Cloudflare Dashboard
 # GEMINI_API_KEY = "your-key-here"
 # DATABASE_URL = "your-supabase-url"
+
+[assets]
+  directory = "dist"
 
 [observability]
 enabled = false
