@@ -14,7 +14,8 @@
     "build": "npm run fix-deps && vite build",
     "build:server": "esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
-    "deploy:pages": "wrangler pages deploy dist --project-name=ch2026",
+    "deploy": "npx wrangler pages deploy dist --project-name=ch2026",
+    "deploy:pages": "npm run deploy",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
