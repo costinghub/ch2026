@@ -11,8 +11,10 @@
     "dev": "tsx server.ts",
     "preinstall": "npm config set legacy-peer-deps true",
     "fix-deps": "node scripts/fix-deps.cjs",
-    "build": "npm run fix-deps && vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "build": "npm run fix-deps && vite build",
+    "build:server": "esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
+    "deploy:pages": "wrangler pages deploy dist --project-name=ch2026",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
